@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>dioscesointerri</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="Portfolio.css">
+</head>
+
+
+<body>
+
+
+	<header>
+			<div id= "Logo">
+				<img src="file:///C:/Users/Iada/Desktop/Cose%20da%20portfolio/Loghi/logotb.png" width="90" height="132" style="width: 86px; height: 86px;">
+			</div>
+
+			<h1>Benvenuto</h1>
+			
+			<nav>
+				<ul>
+					<li>project</li>
+					<li>about me</li>
+				</ul>
+			</nav>
+	
+	</header>
+
+	<main>
+		<div id= "ParagrafoPrincipale">
+			<p>ergfb4i54yrocyw3rvyr2q37y2b3ycr2q3ycfghergeurhgohfowhe</p>
+		</div>
+	</main>
+
+
+</body>
+
+</html>
