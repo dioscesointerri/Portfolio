@@ -1,0 +1,31 @@
+
+
+body{margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	background: url(file:///C:/Users/Iada/Desktop/Cose%20da%20portfolio/Illustrazioni/carpa.png) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	}
+
+header {height: 10vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {padding: 20px;
+	list-style-type: none;
+	display: flex;
+}
+
+li{
+	margin-left: 40px;
+}
+
+#ParagrafoPrincipale {
+	height: 87vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
