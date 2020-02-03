@@ -1,31 +1,100 @@
 
 
-body{margin: 0px;
-	font-family: 'Open Sans', sans-serif;
-	background: url(file:///C:/Users/Iada/Desktop/Cose%20da%20portfolio/Illustrazioni/carpa.png) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+
+body {margin: 0px;
+	font-family: 'Open Sans', sans-serif;	
+	background-color: #f7f5f5;
 	}
 
-header {height: 10vh;
+
+header {
+	height: 10vh;
+	width: 100%;
+	padding: 8px; 
+	color: grey;
 	display: flex;
+	text-align: center;
 	justify-content: space-between;
+	position:fixed;
 }
 
-ul {padding: 20px;
+#Nome {
+	opacity:0.3;
+
+}
+	
+
+main {
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+ul {padding-top: 20px;
 	list-style-type: none;
 	display: flex;
+	justify-content: flex-end;
+	color: grey;
 }
 
 li{
-	margin-left: 40px;
+	margin-right: 40px;
+	display: flex;
+	justify-content: flex-end;
+
+
 }
 
-#ParagrafoPrincipale {
-	height: 87vh;
+
+#immagineMe {
+	height: 300px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
+
+#ParagrafoPrincipale {
+	font-weight: 800;
+	font-size: 500%;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: grey; 
+	-webkit-transition: all 0.7s ease-in-out;
+       -moz-transition: all 0.7s ease-in-out;
+       -o-transition: all 0.7s ease-in-out;
+       -ms-transition: all 0.7s ease-in-out;
+       transition: all 0.7s ease-in-out;
+}
+
+#Scroll {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	color: grey;
+	position: fixed;
+}
+
+#Scroll.animated {
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+}
+
+#Presentazione{	
+	font-family: serif;
+	font-weight: 800;
+	font-size: 200%;
+	background-color: white;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+
+}
+
