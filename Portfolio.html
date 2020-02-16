@@ -1,0 +1,164 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>dioscesointerri</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="Portfolio.css">
+	
+</head>
+
+
+<body>
+
+
+	<header>
+			<div id= "Logo">
+				<img src="file:///C:/Users/Iada/Desktop/Cose%20da%20portfolio/Loghi/logotb.png" style="width: 10vw; height: auto;">
+			</div>
+
+			<div id= "Nome"> <h1>dioscesointerri</h1>
+			</div>
+			
+			<nav>
+				<ul>
+					<li> <a href="projects.html">projects</a></li>
+					<li>about me</li>
+				</ul>
+			</nav>
+	
+	</header>	
+
+
+	<main>
+		
+		
+
+
+
+		<div id= "ParagrafoPrincipale">
+			
+			<img id= "immagineMe" src="file:///C:/Users/Iada/Desktop/Cose%20da%20portfolio/me.png">
+			<p>Ciao bell*, ora puoi scrollare...</p>
+
+		</div>	
+	</main>
+
+	<div class="Freccia">
+				<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+				<lottie-player src="https://assets5.lottiefiles.com/datafiles/TECfNlBjjBlUhNg/data.json"  background="transparent"  speed="1" style="width: 25px; height: 25px;"  
+				loop autoplay >
+				</lottie-player>
+	</div>
+	
+
+	
+		<div id= "Presentazione">
+			<h3 align="center">Sono dioscesointerri, <br> studio Digital Communication <br> Design allo IAAD di Bologna. </h3>
+		</div>
+
+
+<div class= "Pulsante">
+
+
+		<button id="clienti">Clienti</button>
+		<button id="collaborazioni"> Collaborazioni </button>
+		<button id="amichetti"> Amichetti </button>
+
+</div>
+	
+
+	<div id="myModalClienti" class="modal">
+	  <!-- Modal content -->
+	  <div class="modal-content">
+
+	    <span class="close">&times;</span>
+	    <h4>IAAD - Istituto d'Arte Applica e Design <br> 
+	    	F.T.P. srl <br>
+	    	Teelent - Concorsi</h4>
+
+	  </div>
+
+	</div>
+
+
+	<div id="myModalCollaborazioni" class="modal">
+	  <!-- Modal content -->
+	  <div class="modal-content">
+
+	    <span class="close">&times;</span>
+	    <h4>Evolve - risparmiare divertendosi <br>
+	    	Dieci - Edutainment e il Decameron <br>
+	    	Spugna Design - Una campagna per IKEA</h4>
+
+	  </div>
+
+	</div>
+
+	<div id="myModalAmichetti" class="modal">
+	  <!-- Modal content -->
+	  <div class="modal-content">
+
+	    <span class="close">&times;</span>
+	    <h4>Chiara Bizzini <br>
+	    	Valentina Pini <br>
+			Carlotta Rocchi</h4>
+
+	  </div>
+
+	</div>
+
+	<script>
+		// Get the modal
+		var modal = document.getElementById("myModalClienti");
+		var modal1 = document.getElementById("myModalCollaborazioni");
+		var modal2 = document.getElementById("myModalAmichetti");
+
+		// Get the button that opens the modal
+		var btn = document.getElementById("clienti");
+		var btn1 = document.getElementById("collaborazioni");
+		var btn2 = document.getElementById("amichetti");
+
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+		var span1 = document.getElementsByClassName("close")[1];
+		var span2 = document.getElementsByClassName("close")[2];
+
+		// When the user clicks the button, open the modal 
+		btn.onclick = function() {
+		  modal.style.display = "block";
+		}
+		btn1.onclick = function() {
+		  modal1.style.display = "block";
+		}
+		btn2.onclick = function() {
+		  modal2.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+		span1.onclick = function() {
+		  modal1.style.display = "none";
+		}
+		span2.onclick = function() {
+		  modal2.style.display = "none";
+		}
+
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+	</script>
+
+
+
+</body>
+
+</html>
