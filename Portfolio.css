@@ -26,13 +26,17 @@ header {
 	padding: 8px; 
 	color: grey;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	position: fixed;
 }
 
-#Nome {
+#Nome {display: flex;
 	padding: 0;
 	opacity:0.3;
+	justify-content: center;
+	font-weight: 800;
+	font-size: 300%;
+	padding-top: 10px;
 
 
 }
@@ -60,12 +64,13 @@ ul {padding-top: 20px;
 li{ width: 10vw;
 	display: flex;
 	justify-content: flex-end;
+	font-size: 120%;
 }
 
 
 main {
 	width: inherit;
-	height: 100vh;
+	height: 75vh;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -89,9 +94,9 @@ p {	max-width: 100vw;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
-	padding-top: 15%;
+	padding-top: 10%;
 	padding-right: 0%;
-	padding-left: 10%;
+	padding-left: 0%;
 	text-align: left;
 }
 
@@ -101,8 +106,8 @@ p {	max-width: 100vw;
 	font-weight: 800;
 	font-size: 300%;
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
+	justify-content: space-around;
+	align-items: center;
 	color: grey; 
 	flex-wrap: wrap;
 	float: left;
@@ -114,17 +119,14 @@ p {	max-width: 100vw;
     
 }
 
-lottie-player {
-		height: 30px;}
 		
 
 .Freccia {
-
-	width: 10vw;
+	height: 200px;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	opacity: 0.5;
-	align-self: flex-end;
 
 }
 
@@ -196,6 +198,34 @@ element.style {
   	margin: 0px;
   	float: left;
 }
+
+.container2 {
+	display: flex;
+	padding: 10px;
+  	position: relative;
+	height: 35vh;
+  	margin: 0px;
+  	float: left;
+  	font-size: 130%;
+  	flex-wrap: wrap;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1000px) {
+  div.container2 {
+    max-width: 100%;
+    display: block;
+    height: none;
+    padding-top: 5%;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  div.container2 {
+    max-width: 50%;
+  }
+}
+
 
 .image {
  	display: flex;
@@ -316,23 +346,20 @@ button {
 }
 
 
-.esploso {
-	display: flex;
-	height: 200vh;
-	width: 98vw;
-	padding-top: 15%;
 
+
+h1 {
+	margin: 0;
+	max-width: 100%;
+	max-height: 20%;
 }
 
-.immaginegrande {
-
-	padding-left: 15%;
-	padding-right: 15%;
+h3 {
+	padding-top: 5%;
+	margin: 0;	
 	max-width: 100%;
-	max-height: 40vh;
-	float: left;
+} 
 
-
-
-
+h5 {
+	font-size: 200%;
 }
